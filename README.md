@@ -1,3 +1,3 @@
 # Tic Tac Toe
 
-Just a console game created during an programming exercise.
+Just a simple console game created during a programming exercise.
