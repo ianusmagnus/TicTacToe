@@ -26,11 +26,11 @@ dependencies {
     // TestNG is also supported by the Gradle Test task. Just change the
     // testCompile dependency to testCompile 'org.testng:testng:6.8.1' and add
     // 'test.useTestNG()' to your build script.
-    testCompile group: 'junit', name: 'junit', version: '4.+'
+   testImplementation group: 'junit', name: 'junit', version: '4.+'
 }
 
 task runPerfectPlayer(type:JavaExec) {
    main = 'de.jk.ttt.PerfectPlayerGame'
    classpath = sourceSets.main.runtimeClasspath
- 
+
 }

@@ -6,7 +6,7 @@ public class Playboard implements Cloneable {
 
 	public static final int DIM = 3;
 
-	private Piece fields[][] = new Piece[DIM][DIM];
+	private Piece[][] fields = new Piece[DIM][DIM];
 
 	private int turn = 0;
 
